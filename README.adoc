@@ -1,6 +1,6 @@
 = LITE-IDP
 
-https://goreportcard.com/report/github.com/amdonov/lite-idp[image:https://goreportcard.com/badge/github.com/amdonov/lite-idp[Go Report Card]]
+https://goreportcard.com/report/github.com/descope-dev/lite-idp[image:https://goreportcard.com/badge/github.com/descope-dev/lite-idp[Go Report Card]]
 https://travis-ci.org/amdonov/lite-idp[image:https://travis-ci.org/amdonov/lite-idp.svg?branch=master[Travis CI]]
 https://coveralls.io/github/amdonov/lite-idp?branch=master[image:https://coveralls.io/repos/github/amdonov/lite-idp/badge.svg?branch=master[Coverage Status]]
 image:https://quay.io/repository/amdonov/lite-idp/status["Docker Repository on Quay", link="https://quay.io/repository/amdonov/lite-idp"]
@@ -48,7 +48,7 @@ To minimize external dependencies, the default build uses a single file to confi
 
 .Build the binary
 ----
-go get github.com/amdonov/lite-idp
+go get github.com/descope-dev/lite-idp
 ----
 
 .Sample Configuration file
@@ -96,7 +96,7 @@ All aspects of the IdP's behavior are customizable. It's controlled through an o
 
 .Section of lite-idp/cmd/root.go
 ----
-import "github.com/amdonov/lite-idp/idp"
+import "github.com/descope-dev/lite-idp/idp"
 ...
 		idp := &idp.IDP{} // <1>
 		handler, err := idp.Handler()
@@ -117,7 +117,7 @@ command makes use of this feature and can be used as an example.
 
 ----
 
-import lidp "github.com/amdonov/lite-idp/cmd"
+import lidp "github.com/descope-dev/lite-idp/cmd"
 ...
   rootCmd.AddCommand(lidp.AddCmd)
 	rootCmd.AddCommand(lidp.HashCmd)

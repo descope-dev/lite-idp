@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/amdonov/lite-idp/model"
+	"github.com/descope-dev/lite-idp/model"
 	"github.com/golang/protobuf/proto"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

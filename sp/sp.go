@@ -20,8 +20,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/amdonov/lite-idp/saml"
-	"github.com/amdonov/lite-idp/store"
+	"github.com/descope-dev/lite-idp/saml"
+	"github.com/descope-dev/lite-idp/store"
 	"github.com/descope-dev/xmlsig"
 )
 

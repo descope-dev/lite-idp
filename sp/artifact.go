@@ -24,7 +24,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/amdonov/lite-idp/saml"
+	"github.com/descope-dev/lite-idp/saml"
 	log "github.com/sirupsen/logrus"
 )
 

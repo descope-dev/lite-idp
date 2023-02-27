@@ -15,7 +15,7 @@
 package idp
 
 import (
-	"github.com/amdonov/lite-idp/model"
+	"github.com/descope-dev/lite-idp/model"
 	"github.com/spf13/viper"
 )
 
