@@ -15,7 +15,7 @@
 package sign
 
 import (
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 type Signer interface {

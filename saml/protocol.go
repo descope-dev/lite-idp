@@ -18,7 +18,7 @@ import (
 	"encoding/xml"
 	"time"
 
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 type AuthnRequest struct {

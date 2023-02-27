@@ -19,7 +19,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 type Subject struct {

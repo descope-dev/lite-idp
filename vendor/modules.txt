@@ -8,14 +8,14 @@ github.com/alicebob/miniredis/server
 # github.com/allegro/bigcache v1.2.1
 github.com/allegro/bigcache
 github.com/allegro/bigcache/queue
-# github.com/amdonov/xmlsig v0.1.0
-github.com/amdonov/xmlsig
 # github.com/andybalholm/cascadia v1.0.0
 github.com/andybalholm/cascadia
 # github.com/beevik/etree v1.1.0
 github.com/beevik/etree
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
+# github.com/descope-dev/xmlsig v0.0.0-20230227065820-bf718a010008
+github.com/descope-dev/xmlsig
 # github.com/elazarl/go-bindata-assetfs v1.0.0
 github.com/elazarl/go-bindata-assetfs
 # github.com/fsnotify/fsnotify v1.4.7

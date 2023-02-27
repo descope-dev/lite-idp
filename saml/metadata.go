@@ -17,7 +17,7 @@ package saml
 import (
 	"encoding/xml"
 
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 type EntityDescriptor struct {

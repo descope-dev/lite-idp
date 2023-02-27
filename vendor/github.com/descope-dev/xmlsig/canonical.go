@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"io"
 	"sort"
+	"strings"
 )
 
 /* canonicalize produces canonical XML when marshalling the data structure
@@ -60,7 +61,7 @@ func canonicalize(data interface{}) ([]byte, string, error) {
 			if att.Name.Space == "" {
 				fmt.Fprintf(writer, " %s=\"%s\"", att.Name.Local, att.Value)
 			} else {
-				fmt.Fprintf(writer, " %s:%s=\"%s\"", nsmap[att.Name.Space], att.Name.Local, att.Value)
+				fmt.Fprintf(writer, " %s:%s=\"%s\"", nsmap[att.Name.Space], att.Name.Local, strings.ReplaceAll(att.Value, "&", "&amp;"))
 			}
 		}
 		fmt.Fprint(writer, ">")

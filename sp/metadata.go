@@ -21,7 +21,7 @@ import (
 	"net/http"
 
 	"github.com/amdonov/lite-idp/saml"
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 // MetadataFunc creates a handler function to return service provider metadata

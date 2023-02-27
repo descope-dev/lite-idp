@@ -36,7 +36,7 @@ The service provider library makes it easy to integrate Go applications with SAM
 * HTTP Artifact Binding
 * SAML Metadata Generation
 
-The SP will likely never support the HTTP POST binding. I created a XML Digital signature library https://github.com/amdonov/xmlsig[xmlsig] that is capable of signing XML. However, verifying XML signatures is far more challenging, and introduction of C libraries is not desirable. Transport level security can be used with Artifact Binding, but message level verification is required because the SAML assertion is passed from the IdP to SP via the user.
+The SP will likely never support the HTTP POST binding. I created a XML Digital signature library https://github.com/descope-dev/xmlsig[xmlsig] that is capable of signing XML. However, verifying XML signatures is far more challenging, and introduction of C libraries is not desirable. Transport level security can be used with Artifact Binding, but message level verification is required because the SAML assertion is passed from the IdP to SP via the user.
 
 Honestly, I prefer the Artifact Binding as it is very much like an OAuth 2 server side flow.
 

@@ -3,7 +3,7 @@ package idp
 import (
 	"testing"
 
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 func TestGetCertFromXML(t *testing.T) {

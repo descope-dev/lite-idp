@@ -27,7 +27,7 @@ import (
 	"github.com/amdonov/lite-idp/sign"
 	"github.com/amdonov/lite-idp/store"
 	"github.com/amdonov/lite-idp/ui"
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 	"github.com/julienschmidt/httprouter"
 	"github.com/spf13/viper"
 )

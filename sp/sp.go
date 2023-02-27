@@ -22,7 +22,7 @@ import (
 
 	"github.com/amdonov/lite-idp/saml"
 	"github.com/amdonov/lite-idp/store"
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 // ServiceProvider acts as a SAML service provider

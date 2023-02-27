@@ -21,7 +21,7 @@ import (
 	"net/http"
 
 	"github.com/amdonov/lite-idp/saml"
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 // DefaultMetadataHandler is the default implementation for the metadata display handler. It can be used as is, wrapped in other handlers, or replaced completely.

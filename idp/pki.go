@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/amdonov/xmlsig"
+	"github.com/descope-dev/xmlsig"
 )
 
 func getCertFromRequest(r *http.Request) (*x509.Certificate, error) {
