@@ -7,7 +7,7 @@ require (
 	github.com/allegro/bigcache v1.2.1
 	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/beevik/etree v1.1.0 // indirect
-	github.com/descope-dev/xmlsig v0.0.0-20230227065820-bf718a010008
+	github.com/descope-dev/xmlsig v0.0.0-20230227075430-091d0f6f9fbe
 	github.com/elazarl/go-bindata-assetfs v1.0.0
 	github.com/go-redis/redis v6.15.5+incompatible
 	github.com/golang/protobuf v1.3.2

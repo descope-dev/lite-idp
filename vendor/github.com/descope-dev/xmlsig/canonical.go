@@ -47,6 +47,7 @@ func canonicalize(data interface{}) ([]byte, string, error) {
 		namespaces.Push(start.Name.Space)
 		nsmap := make(map[string]string)
 		for _, att := range start.Attr {
+			att.Value = strings.ReplaceAll(att.Value, "&", "&amp;")
 			// Skip xmlns declarations they're handled above
 			if "xmlns" == att.Name.Local {
 				continue
@@ -61,7 +62,7 @@ func canonicalize(data interface{}) ([]byte, string, error) {
 			if att.Name.Space == "" {
 				fmt.Fprintf(writer, " %s=\"%s\"", att.Name.Local, att.Value)
 			} else {
-				fmt.Fprintf(writer, " %s:%s=\"%s\"", nsmap[att.Name.Space], att.Name.Local, strings.ReplaceAll(att.Value, "&", "&amp;"))
+				fmt.Fprintf(writer, " %s:%s=\"%s\"", nsmap[att.Name.Space], att.Name.Local, att.Value)
 			}
 		}
 		fmt.Fprint(writer, ">")

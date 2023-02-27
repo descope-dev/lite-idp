@@ -14,7 +14,7 @@ github.com/andybalholm/cascadia
 github.com/beevik/etree
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
-# github.com/descope-dev/xmlsig v0.0.0-20230227065820-bf718a010008
+# github.com/descope-dev/xmlsig v0.0.0-20230227075430-091d0f6f9fbe
 github.com/descope-dev/xmlsig
 # github.com/elazarl/go-bindata-assetfs v1.0.0
 github.com/elazarl/go-bindata-assetfs
